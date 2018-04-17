@@ -15,7 +15,7 @@ let countdown = 100
 function whileLoop(countdown) {
   while (countdown > 0) {
     console.log(--countdown)
-  if (i === 0){
+  if (countdown === 0){
     return 'done'
   }
   }
