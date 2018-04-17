@@ -29,7 +29,7 @@ var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 function doWhileLoop(array) {
   do {
-    console.log(--array)
+    console.log(array.length--)
   } while (array.length > 0 && maybeTrue())
   return array
 }
