@@ -21,4 +21,13 @@ function whileLoop(countdown) {
   }
 }
 
-function doWhileLoop(array)
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(array) {
+  do {
+    console.log(--array)
+  } while (array.length > 0 && maybeTrue())
+  return array
+}
